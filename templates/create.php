@@ -19,10 +19,6 @@
             <label>
                 <input type="checkbox" name="once" value="1"> Allow access only once
             </label><br>
-            <!--
-            <label>
-                <input type="checkbox" name="editable" value="1"> Allow editing (not available for "once")
-            </label><br> -->
             <label>
                 <input type="checkbox" id="encrypt" name="encrypt" value="1" disabled="disabled"> Encrypt contents (JavaScript required)
                 <span id="encryptStatus"><b>Not ready yet. Please enable JS and move your mouse to generate some randomness.</b></span>

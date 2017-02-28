@@ -48,7 +48,7 @@ switch ($query['action']) {
             'value', 'encrypted'
         ];
         $boolFields = [
-            'once', 'editable'
+            'once'
         ];
         $entry = (object)[];
         foreach ($fields as $fieldName) {
@@ -72,13 +72,6 @@ switch ($query['action']) {
         
         break;
         
-        
-        
-    case 'edit':
-        die("edit existing. id may not be empty.");
-        
-        break;
-    
         
     
     default:
